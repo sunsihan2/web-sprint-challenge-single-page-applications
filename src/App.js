@@ -1,4 +1,6 @@
 import React from "react";
+import {Link, Route, Switch, useParams} from 'react-router-dom'
+
 
 const App = () => {
   return (
