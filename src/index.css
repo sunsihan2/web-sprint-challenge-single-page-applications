@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.items-list-wrapper {
+  margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item-card {
+  width: 250px;
+  margin: 0 10px 32px;
+  cursor: pointer;
+}
+
+.item-card p {
+  margin: 0 0 4px;
+  text-align: left;
+  color: #595959;
+}
+.item-list-image {
+  width: 100%;
+  border: 1px solid lightgray;
+}
